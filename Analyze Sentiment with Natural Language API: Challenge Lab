@@ -1,0 +1,6 @@
+#Task 3
+gcloud ml language analyze-syntax --content="Google, headquartered in Mountain View, unveiled the new Android phone at the Consumer Electronic Show.  Sundar Pichai said in his keynote that users love their new Android phones." >> analyze-response.txt
+
+
+#Task 4
+gcloud ml language analyze-entities --content="Le bureau japonais de Google est situé à Roppongi Hills, Tokyo." >> multi-response.txt
